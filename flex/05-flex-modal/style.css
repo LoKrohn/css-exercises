@@ -20,7 +20,15 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
 }
+
+.modal .top {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px 10px 5px;
+}
+
 
 .icon {
   color: royalblue;
@@ -33,6 +41,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 20px 10px;
 }
 
 .close-button {
@@ -46,6 +55,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.text.middle {
+  margin-right: 10px;
+}
+
+.right .header {
+  font-weight: bolder;
+}
+
+.buttons {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 button {
